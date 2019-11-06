@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+.button {
+  background-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+}
+</style>
+<script>
+ var colors=["red","Blue","Green","Gray" ];
+    function changeColor( color) {
+        var col = document.getElementById("body");
+       
+        col.style.backgroundColor = colors[color];
+        
+    }
+function changeFont( color) {
+        var col = document.getElementById("pe");
+       
+        col.style.color =colors[color] ;
+        
+    }
+
+</script>
+    <body id='body'>
+    <button class="button"; onclick="changeColor(2);">GREEN</button>
+  <button class="button"; onclick="changeColor(1);">BLUE</button>
+  <button class="button"; onclick="changeColor(0);">RED</button>
+ <button class="button"; onclick="changeColor(3);">GREEN</button>
+<br>
+<button class="button"; onclick="changeFont(2);">GREEN</button>
+  <button class="button"; onclick="changeFont(1);">BLUE</button>
+  <button  class="button"; onclick="changeFont(0);">RED</button>
+ <button class="button"; onclick="changeFont(3);">GRAY</button>
+<p id='pe' >Avoid losing floppy disks with important school...<br>For instance, let's say you had a HUGE school...</p>
+    </body>
+</html>
